@@ -14,7 +14,11 @@ tval = []
 for a in page[0:-2]:
     pval.append(a.string)
 
+print("Pages is ", 1, "~", pval[-2])
+
 for b in title:
     tval.append(b.string)
 
-print("Pages is ", pval, "Title is ", tval)
+print("##Security Title##")
+for read in tval:
+    print(read)
