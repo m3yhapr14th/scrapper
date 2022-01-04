@@ -1,7 +1,7 @@
-import refer
+import rf
 
-page = refer.page_get.find_all("a")
-title = refer.table_get.find_all("a")
+page = rf.page_get.find_all("a")
+title = rf.table_get.find_all("a")
 pval = []
 tval = []
 
@@ -15,4 +15,4 @@ for b in title:
 
 print("##Security Title##")
 for read in tval:
-    print(read)
+    print("-" + " " + read)
